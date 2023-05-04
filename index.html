@@ -5,21 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sitio FreeLancer</title>
+    <link rel="preload" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="/css/styles.css" as="styles">
+    <link rel="stylesheet" href="/css/styles.css">
+
+
 </head>
 
 <body>
     <header>
-        <p>Oscar Lara FreeLancer</p>
+        <p class="tittle">Oscar Lara <span>FreeLancer</span></p>
     </header>
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Clientes</a>
-        <a href="#">Contactos</a>
-    </nav>
-
-    <section>
+    <div class="nav">
+        <nav class="bar-nav container">
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contactos</a>
+        </nav>
+    </div>
+    <section class="section-contacto">
 
         <h1>Desing and development Web FreeLancer</h1>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="64" height="64"
@@ -102,7 +113,7 @@
     </main>
     <section>
         <h2>Contacto</h2>
-        <form >
+        <form>
             <fieldset>
                 <legend>Contactanos llenando todos los campos</legend>
                 <label for="">Nombre</label>
@@ -113,10 +124,10 @@
                 <input type="email" placeholder="Mail">
                 <label for="">Mensaje</label>
                 <input type="text">
-                
+
                 <input type="button" value="Aceptar">
 
-            
+
             </fieldset>
         </form>
     </section>

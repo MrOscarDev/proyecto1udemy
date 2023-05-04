@@ -1,0 +1,64 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    background-color: #121212;
+    color: white;
+}
+.tittle{
+    font-size:5rem;
+    text-align: center;
+    margin: 0;
+}
+.tittle span{
+    font-weight: 700;
+}
+.nav{
+    background-color: blueviolet;
+    animation:  1s bar-nav 0.5s ease-in-out;  
+}
+
+.container{
+width:80rem;
+margin:0 auto;  
+}
+.bar-nav{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.bar-nav a{
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    animation:  0.8s bar-nav 0.5s ease-in-out;
+}
+.bar-nav a:hover{
+    color: greenyellow;
+    font-weight:700;
+}
+@keyframes bar-nav {
+    0%{
+        transform: translateY(-10rem);
+    }
+    100%{
+        transform: translateY(0rem);
+    }
+}
+
+/* Seccion Contacto */
+.section-contacto{
+background-image: url(../img/header.jpg);  
+height: 40rem;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: 120rem;
+margin-top: 0;
+}
+.section-contacto h1{
+    margin: 0;
+}
